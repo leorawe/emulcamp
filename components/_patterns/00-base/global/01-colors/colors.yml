@@ -1,0 +1,63 @@
+items:
+  - name: $white
+    value: white
+  - name: $near-white
+    value: '#f2f2f2'
+  - name: $gray-lightest
+    value: '#e5e5e5'
+  - name: $gray-lighter
+    value: '#ccc'
+  - name: $gray-light
+    value: '#999'
+  - name: $gray
+    value: '#666'
+  - name: $gray-dark
+    value: '#4c4c4c'
+  - name: $gray-darker
+    value: '#333'
+  - name: $black
+    value: black
+  - name: $c-red
+    value: 'hsl(352, 92%, 38%)'
+  - name: $c-blue
+    value: '#2377ce'
+  - name: $c-green
+    value: '#38653c'
+  - name: $c-primary
+    value: '#38653c'
+  - name: $c-secondary
+    value: '#7B0F55'
+  - name: $c-secondary-dark
+    value: '#46002E'
+  - name: $c-white
+    value: white
+  - name: $c-gray--lightest
+    value: 'hsl(0, 0%, 89%)'
+  - name: $c-gray--lighter
+    value: 'hsl(0, 0%, 80%)'
+  - name: $c-gray--light
+    value: 'hsl(0, 0%, 60%)'
+  - name: $c-gray
+    value: 'hsl(0, 0%, 48%)'
+  - name: $c-gray--dark
+    value: 'hsl(0, 0%, 40%)'
+  - name: $c-gray--darker
+    value: 'hsl(0, 0%, 20%)'
+  - name: $c-gray--darkest
+    value: 'hsl(0, 0%, 16.1%)'
+  - name: $c-black
+    value: black
+  - name: $c-grayish--light
+    value: '#ecefef'
+  - name: $c-black--nearlyopaque
+    value: 'rgba(0, 0, 0, .85)'
+  - name: $c-black--semitransparent
+    value: 'rgba(0, 0, 0, .5)'
+  - name: $c-black--transparent
+    value: 'rgba(0, 0, 0, .25)'
+  - name: $c-nearlyblack
+    value: '#1a1a1a'
+meta:
+  description: >-
+    To add to these items, use Sass variables that start with <code>$</code> in
+    <code>.//components/_patterns/00-base/global/01-colors/_color-vars.scss</code>
