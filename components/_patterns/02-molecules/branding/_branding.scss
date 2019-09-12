@@ -2,6 +2,8 @@
   height: 100%;
   margin: 0;
   padding: 1rem;
+  background-color: $c-primary;
+  border-bottom: 3px solid transparent;
   a {
     color: $white;
     text-decoration: none;

@@ -26,9 +26,9 @@ items:
   - name: $c-primary
     value: '#38653c'
   - name: $c-secondary
-    value: '#7B0F55'
+    value: '#7b0F55'
   - name: $c-secondary-dark
-    value: '#46002E'
+    value: '#46002e'
   - name: $c-white
     value: white
   - name: $c-gray--lightest
