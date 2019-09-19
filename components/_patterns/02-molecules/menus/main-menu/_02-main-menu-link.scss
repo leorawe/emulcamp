@@ -13,7 +13,7 @@
   }
 
   @include breakpoint($main-menu-medium) {
-    border-bottom: none;
+    border-bottom: 7px solid transparent;
     color: $white;
     display: inline-block;
     font-size: 1.1rem;
@@ -26,6 +26,7 @@
     &:active,
     &:hover {
       color: $gray-lighter;
+      border-bottom: 7px solid $c-secondary;
     }
 
     // &::after {

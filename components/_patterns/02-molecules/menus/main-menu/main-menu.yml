@@ -35,3 +35,5 @@ menu_items:
         url: "#"
       - title: "Menu Item 3 Sub 4"
         url: "#"
+  - title: "Menu Item 4"
+    url: "#"
