@@ -3,5 +3,11 @@
     {% include "@molecules/menus/inline-menu/inline-menu.twig" with {
       items: footer_menu_items
     } %}
+    <div class="footer-listing">{{ footer_listing }}</div>
+    {% include "@molecules/menus/inline-menu/inline-menu.twig" with {
+      items: footer_archive_items
+    } %}
+    <div class="footer-listing">{{ footer_listing2 }}</div>
+    <div class="footer-listing">{{ footer_listing3 }}</div>
   {% endblock %}
 </footer>

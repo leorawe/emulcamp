@@ -11,7 +11,8 @@
 
     // Only top level
     &:not(.main-menu__item--sub):hover {
-      background-color: $c-primary;
+      //background-color: $c-primary;
+      background: $c-primary-light;
       transition: all 0.2s;
 
       & > .main-menu--sub {

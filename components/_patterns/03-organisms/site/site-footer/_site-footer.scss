@@ -1,3 +1,26 @@
 .footer {
-  clear: both;
+  background-color: $c-blue;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: $c-white;
+  padding: 100px;
+
+  .inline-menu {
+    display: flex;
+    flex: 0 0 33%;
+
+    .inline-menu__link {
+      color: $c-white;
+    }
+  }
+
+  .footer-listing {
+    flex: 0 1 33%;
+  }
+
+  a {
+    color: $c-white;
+  }
 }

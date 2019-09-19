@@ -25,12 +25,16 @@ items:
     value: '#38653c'
   - name: $c-primary
     value: '#38653c'
+  - name: $c-primary-light
+    value: '#148a33'
   - name: $c-secondary-light
     value: '#ae1478'
   - name: $c-secondary
     value: '#7b0f55'
   - name: $c-secondary-dark
     value: '#46002e'
+  - name: $c-orange
+    value: '#e1851a'
   - name: $c-white
     value: white
   - name: $c-gray--light
