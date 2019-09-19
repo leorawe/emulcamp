@@ -7,7 +7,8 @@
   color: $c-white;
   padding: 100px;
 
-  .inline-menu {
+  .inline-menu,
+  nav {
     display: flex;
     flex: 0 0 33%;
 
