@@ -4,12 +4,15 @@
   padding: 1rem;
   background-color: $c-primary;
   border-bottom: 7px solid transparent;
+
   a {
     color: $white;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
-  &:hover, &:focus {
+
+  &:hover,
+  &:focus {
     border-bottom: 7px solid $c-secondary;
     background-color: $c-primary;
   }

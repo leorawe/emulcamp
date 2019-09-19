@@ -1,11 +1,12 @@
 .header {
-    background-color: $c-green;
-    max-width: 100%;
-    margin-bottom: 0;
-    .content {
-        display: flex;
-        max-width: $xl;
-        margin: 0 auto;
-        justify-content: space-between;
-    }
+  background-color: $c-green;
+  max-width: 100%;
+  margin-bottom: 0;
+
+  .content {
+    display: flex;
+    max-width: $xl;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
 }

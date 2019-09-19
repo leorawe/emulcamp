@@ -1,0 +1,15 @@
+{# include image #}
+<div class="sponsor">
+{% block sponsor_img %}
+    {% if sponsor_img_src %}
+      {% include "@atoms/04-images/00-image/responsive-image.twig" with {
+        "img_url": sponsor_img_url|default(sponsor_link_url),
+        "img_src": sponsor_img_src,
+        "img_alt": sponsor_img_alt,
+        "image_link_blockname": sponsor_base_class,
+        "image_blockname": sponsor_base_class,
+        "output_image_tag": sponsor_image_output_image_tag,
+      } %}
+    {% endif %}
+  {% endblock %}
+</div>
