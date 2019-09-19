@@ -24,6 +24,7 @@ ckeditor_stylesheets:
 
 regions:
   header: Header
+  hero: Hero
   content: Content  # the content region is required
   sidebar: 'Sidebar'
   footer: Footer

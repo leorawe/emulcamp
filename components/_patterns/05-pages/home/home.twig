@@ -3,6 +3,14 @@
   footer_menu_items: footer.menu_items,
 } %}
 
+{% if hero %}
+      {% block page_hero %}
+        {% include "@molecules/hero/hero.twig" with {
+          "call": "Example Hero Content Info Here"
+        } %}
+      {% endblock %}
+{% endif %}
+
   {% block page_content %}
 
     {% if site_title %}

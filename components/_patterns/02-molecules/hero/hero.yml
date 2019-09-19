@@ -1,6 +1,4 @@
 call: 
-  "Example Hero Content Info Here"
-more:
-  "line two"
+  "Example Hero Content Info Here This is the second line"
 styleModifier: 
   "home"
