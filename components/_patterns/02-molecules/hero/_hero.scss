@@ -1,6 +1,6 @@
 .hero {
   background: $c-gray--light;
-  min-height: 100px;
+  min-height: 308px;
   text-align: center;
   color: $c-white;
   text-shadow: 2px 2px $gray-dark;
@@ -16,12 +16,13 @@
   }
 
   h1,
+  .text-long h1,
   h2,
   h3 {
     margin-top: 0;
-    max-width: 400px;
     margin: 0 auto;
     font-size: 3rem;
     line-height: 1.25;
+    color: $c-white;
   }
 }
