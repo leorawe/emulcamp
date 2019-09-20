@@ -35,6 +35,64 @@
   text-transform: none;
 }
 
+// .button {
+//   @include button;
+
+//   &--alt {
+//     @include button;
+//     @include button-alt;
+//   }
+
+//   &--alt-2 {
+//     @include button;
+//     @include button-alt-2;
+//   }
+// }
+
+//old button from 2019 camp
+//@include a-link($link: $text, $hover: $text-hover, $deco--hover: "none");
+
+@mixin button-camp($bg: $c-blue, $border: $c-blue, $text: $c-white, $text-hover: $c-white) {
+  background-color: $bg;
+  color: $text;
+  border-radius: 5px;
+  border: 1px solid $border;
+  font-weight: 700;
+  padding: 40px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.2s ease-in, color 0.15s ease-in, border-color 0.25s ease-in;
+}
+
+@mixin word-wrap() {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+a.button {
+  // needed to override base theme CSS
+  // stylelint-disable property-no-vendor-prefix
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  // stylelint-enable property-no-vendor-prefix
+}
+
+// input[type="submit"],
+// .form-submit {
+//   @include button-camp();
+//   border: 0;
+// }
+
+// end old 2019
+
 .button {
   @include button;
 
@@ -46,5 +104,24 @@
   &--alt-2 {
     @include button;
     @include button-alt-2;
+  }
+
+  &--knockout {
+    @include button-camp;
+    @include button-camp(transparent, $c-white);
+    @include word-wrap();
+
+    border: 1px solid $gray;
+    color: $c-blue;
+    padding: 15px 60px;
+    margin-top: 5px;
+    border-width: 1px;
+
+    &:hover {
+      @include button-camp($c-blue, $c-blue, $c-white, $c-white);
+
+      padding: 15px 60px;
+      border-width: 1px;
+    }
   }
 }
