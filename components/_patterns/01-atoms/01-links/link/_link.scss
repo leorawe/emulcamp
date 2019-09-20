@@ -1,12 +1,15 @@
 /// Link
 $color-link: $gray-darker;
-$color-link--hover: $gray-light;
+$color-link--hover: $gray;
 
 @mixin link {
   color: $color-link;
+  text-decoration: none;
+  border-bottom: 1px solid $color-link;
 
   &:hover {
     color: $color-link--hover;
+    border-bottom: 1px solid $c-secondary;
   }
 }
 

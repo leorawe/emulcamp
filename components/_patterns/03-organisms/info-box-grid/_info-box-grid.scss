@@ -1,6 +1,7 @@
 .info-box__grid {
   @include grid;
   @include margin;
+  margin-top: 20px;
 }
 
 .info-box--grid-item {

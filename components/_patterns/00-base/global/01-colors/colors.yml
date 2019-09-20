@@ -23,9 +23,7 @@ items:
     value: '#2377ce'
   - name: $c-green
     value: '#38653c'
-  - name: $c-primary
-    value: '#38653c'
-  - name: $c-primary-light
+  - name: $c-green-light
     value: '#148a33'
   - name: $c-secondary-light
     value: '#ae1478'
@@ -35,8 +33,12 @@ items:
     value: '#46002e'
   - name: $c-orange
     value: '#e1851a'
-  - name: $c-white
-    value: white
+  - name: $c-orange-darker
+    value: '#9f5e13'
+  - name: $c-orange-pale
+    value: '#fcf4ea'
+  - name: $c-brown-pale
+    value: '#f9f2ea'
   - name: $c-gray--light
     value: 'hsl(0, 0%, 60%)'
 meta:
