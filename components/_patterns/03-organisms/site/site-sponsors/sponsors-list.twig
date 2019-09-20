@@ -1,0 +1,50 @@
+<div class="sponsors">
+  {% block content %}
+    this is just a test - not sure what to put here
+   {% if title %}
+      <h3 class="sponsorslist__title">{{ sponsor_title }}</h3>
+  {% endif %}
+{#     <{{ list.type }}{{ list.attributes }}>
+
+    {% for row in rows %}
+      {% set rowattributes = row.attributes.addClass('sponsorslist__item') %}
+      <li{{ row.attributes }}>{{ row.content }}</li>
+    {% endfor %}
+
+    </{{ list.type }}> #}
+  {% endblock %}
+</div>
+
+{# 
+{% if attributes -%}
+  <div{{ attributes }}>
+{% endif %}
+  {% if title %}
+    <h3 class="sponsorslist__title">{{ title }}</h3>
+  {% endif %}
+
+  <{{ list.type }}{{ list.attributes }}>
+
+    {% for row in rows %}
+      {% set rowattributes = row.attributes.addClass('sponsorslist__item') %}
+      <li{{ row.attributes }}>{{ row.content }}</li>
+    {% endfor %}
+
+  </{{ list.type }}>
+
+{% if attributes -%}
+  </div>
+{% endif %}
+   #}
+
+{#
+  {% for sponsor in sponsors %}
+  {% include "@molecules/sponsor/sponsor.twig" with {
+      "sponsor_blockname": sponsor.blockname,
+      "sponsor_modifiers": sponsor.sponsor_modifiers,
+      "sponsor_img_src": sponsor.sponsor_img_src,
+      "sponsor_link_url": sponsor.sponsor_link_url,
+      "sponsor_image_output_image_tag": sponsor.sponsor_image_output_image_tag,
+    } %}
+  {% endfor %}
+#}
