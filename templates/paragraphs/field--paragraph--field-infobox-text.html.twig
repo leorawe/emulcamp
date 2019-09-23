@@ -1,0 +1,11 @@
+{% if multiple %}
+    <div{{ attributes.addClass('text-long', 'info-box__body') }}>
+      {% for item in items %}
+        <div{{ item.attributes }}>{{ item.content }}</div>
+      {% endfor %}
+    </div>
+  {% else %}
+    {% for item in items %}
+      <div{{ attributes.addClass('text-long', 'info-box__body') }}>{{ item.content }}</div>
+    {% endfor %}
+  {% endif %}
