@@ -1,8 +1,0 @@
-# Image
-sponsor_img_modifiers:
-sponsor_img_blockname:
-sponsor_img_src:
-  '../../images/ffw-logo.png'
-sponsor_img_alt:
-  "This is the sponsor logo's alt text"
-sponsor_image_output_image_tag: TRUE
