@@ -16,5 +16,12 @@
 }
 
 .info-box__link {
-  @include link;
+  border-bottom: 1px solid transparent;
+  color: $black;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    @include link;
+  }
 }
