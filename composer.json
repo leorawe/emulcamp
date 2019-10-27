@@ -1,0 +1,10 @@
+{
+  "name": "drupal/emulcamp",
+  "description": "sub theme of Emulsify for DrupalCampNJ",
+  "type": "drupal-theme-custom",
+  "homepage": "https://github.com/leorawe/emulcamp",
+  "require": {
+    "drupal/components": "^1.1",
+    "drupal-pattern-lab/unified_twig_ext": "^1.0"
+  }
+}
