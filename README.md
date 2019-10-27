@@ -2,6 +2,8 @@
 
 # emulcamp: Pattern Lab + Drupal 8
 
+Sub theme of Emulsify for DrupalCampNJ
+
 Component-driven prototyping tool using [Pattern Lab v2](http://patternlab.io/) automated via Gulp/NPM. Also serves as _a starterkit_ Drupal 8 theme.
 
 ## Requirements
